@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIODATA</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-color: lightblue;
+			text-align: center;
+			font-family: 'Poppins', sans-serif;
+			font-size: 14px; 
+			line-height: 1.6; 
+		}
+		h1 {
+			font-weight: 500;
+			font-size: 22px;
+			text-transform: uppercase; 
+			text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+		}
+		table {
+			margin: 0 auto;
+			border-collapse: collapse;
+			width: 40%; 
+			border: 2px solid blueviolet; 
+			background-color: #f0f8ff; 
+			margin-bottom: 30px; /* Add space between table and button */
+		}
+		th, td {
+			color: blueviolet;
+			padding: 8px; 
+			font-weight: 500;
+			border: 1px solid blueviolet; 
+		}
+		img {
+			border: 5px solid black;
+			width: 100%;
+			max-width: 200px; 
+			height: auto;
+			box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+		}
+		
+		.button {
+			background-color: blueviolet;
+			color: white;
+			border: none;
+			padding: 12px 24px; 
+			font-size: 14px;
+			font-weight: 500;
+			cursor: pointer;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			border-radius: 5px; 
+			margin-top: 5px; 
+		}
+		.button:hover {
+			background-color: darkviolet;
+		}
+	</style>
+</head>
+<body>
+	<h1>TUGAS 2 PEMOGRAMAN WEB</h1>
+	<img src="IMG_7821.PNG" alt="Foto Rizaldy M Sopyan">
+	
+	<h1>Biodata Mahasiswa</h1>
+	<table cellspacing="0">
+		<tr>
+			<th> Nama </th>
+			<th> : </th>
+			<td> Rizaldy M Sopyan </td>
+		</tr>
+		<tr>
+			<th> NIM </th>
+			<th> : </th>
+			<td> D212111014 </td>
+		</tr>
+		<tr>
+			<th> Alamat </th>
+			<th> : </th>
+			<td> Jalan Babakan Priangan V </td>
+		</tr>
+		<tr>
+			<th> Hobi </th>
+			<th> : </th>
+			<td> 
+				<ul> 
+					<li> Olahraga Tenis </li>
+					<li> Nonton film </li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	
+	<button class="button" onclick="showMessage()">Klik Saya</button>
+
+	<script>
+		function showMessage() {
+			alert("Berhasil Masuk!!!");
+		}
+	</script>
+</body>
+</html>
